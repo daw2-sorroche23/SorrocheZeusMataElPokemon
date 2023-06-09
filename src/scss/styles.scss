@@ -1,0 +1,27 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+#boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #comenzar {
+    padding: 20px 40px;
+    font-size: 24px;
+  }
+
+  #comenzar.boton-grande {
+    font-size: 32px;
+    padding: 30px 60px;
+  }
+
+  .grass{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/933/827/743/pokemon-pixel-art-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
